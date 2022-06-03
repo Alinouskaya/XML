@@ -1,0 +1,76 @@
+XML
+21. Создать внешний репозиторий c названием XML. click "+" - new repository
+22. Клонировать репозиторий XML на локальный компьютер. git clone ссылка на репозиторий
+23. Внутри локального XML создать файл “new.xml”. cd XML (main) touch new.xml
+24. Добавить файл под гит. git add .
+25. Закоммитить файл. git commit -m "new xml added"
+26. Отправить файл на внешний GitHub репозиторий. git push
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. vim new.xml 
+<?xml version="1.0"?>
+<Information about me>
+        <Last name>Alinouskaya</Last name>
+        <First name>Yana</First name>
+        <Middle name>Aliaksandrovna</Middle name>
+        <Age>26</Age>
+        <Pet>1</Pet>
+        <Desired salary>500</Desired salary>
+</Information about me>
+
+
+28. Отправить изменения на внешний репозиторий. git commit -am "new information" git push
+29. Создать файл preferences.xml touch preferences
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. vim preferences.xml
+<?xml version="1.0"?>
+<My preferences>
+        <Favourite film>Matrix</Favourite film>
+        <Favourite serial>The Office</Favourite serial>
+        <Favourite food>Tom Yam</Favourite food>
+        <Favourite season>Spring</Favourite season>
+        <The country I want to visit>Japan</The country I want to visit>
+</My preferences>
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+<?xml version="1.0"?>
+<My skills>
+        <skills>
+         Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC
+         What is the client-server architecture
+         HTTP methods of requests to the server
+         HTTP server response codes
+         Structures of HTTP requests and responses
+         What is JSON, XML. Their structure
+         API testing via Postman (JS, API autotests)
+         Removing and reading logs from an external server
+         Sniffing http web traffic through Charles and Fiddler
+         Dev Tools of web browsers (Google Chrome, FireFox)
+         VPN. (How it works, why it is needed, how to use it, tool options)
+         Mobile testing
+         Feature of iOS, Android, guidelines
+         Build iOS apps on XCode. (Those who don't have a Mac computer will just take a look)",
+         Build Android apps on Android Studio
+         ADB (android device management)
+         Setting up proxy and vpn on iOS and Android
+         Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
+         Linux command line (terminal) (copying, creating, viewing, moving files on servers without a graphical interface)",
+         Basics of bash scripting, automation of routine tasks on the server
+         Access to remote servers
+         Basics of SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+         Postgres database (installation, configuration and use)
+         Non-relational database Redis (installation, configuration and use)
+         Load testing in Jmeter
+         Scrum development methodology
+         Python </skills>
+</My skills>
+32. Сделать коммит в одну строку. git commit -m 
+33. Отправить сразу 2 файла на внешний репозиторий. git add .
+34. На веб интерфейсе создать файл bug_report.xml. add file - create new file
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. edit this file...
+<?xml version="1.0"?>
+<Bug report>
+  <Title>: The part of the logo is not visible</Title>
+  <Actual result>: The logo is cropped</Actual result>
+  <Expected result>: The logo is displayed in full size</Expected result>
+</Bug report>
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit directly to the main branch
+38. Синхронизировать внешний и локальный репозиторий XML git pull
