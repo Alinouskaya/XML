@@ -1,1 +1,6 @@
-
+<?xml version="1.0"?>
+<Bug report>
+  <Title>: The part of the logo is not visible</Title>
+  <Actual result>: The logo is cropped</Actual result>
+  <Expected result>: The logo is displayed in full size</Expected result>
+</Bug report>
